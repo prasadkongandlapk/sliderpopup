@@ -12,7 +12,9 @@ const PrimeVideo = props => {
         alt="prime video"
       />
       <h1>Action Movies</h1>
-      <MoviesSlider moviesList={moviesList} />
+      <div>
+        <MoviesSlider moviesList={moviesList} />
+      </div>
     </div>
   )
 }

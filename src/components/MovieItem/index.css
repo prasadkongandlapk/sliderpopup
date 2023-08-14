@@ -1,1 +1,7 @@
-/* Write your CSS here */
+.video-img {
+  height: 100px;
+  width: 100px;
+}
+li {
+  list-style: none;
+}

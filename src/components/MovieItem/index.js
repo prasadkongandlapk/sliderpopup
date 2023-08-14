@@ -1,10 +1,12 @@
+import './index.css'
+
 const MovieItem = props => {
   const {actionInfo} = props
   const {thumbnailUrl} = actionInfo
   return (
-    <div>
-      <img src={thumbnailUrl} alt="thumbnail" />
-    </div>
+    <li>
+      <img className="video-img" src={thumbnailUrl} alt="thumbnail" />
+    </li>
   )
 }
 

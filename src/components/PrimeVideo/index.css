@@ -10,3 +10,9 @@
   height: 200px;
   width: 100vw;
 }
+
+.videos-bg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -11,18 +11,18 @@ const MoviesSlider = props => {
       <Slider>
         <ul className="videos-bg">
           {moviesList.map(each => {
-            if (each.category === 'ACTION') {
+            if (each.categoryId === 'ACTION') {
               return <MovieItem actionInfo={each} key={each.id} />
             }
             return null
           })}
         </ul>
       </Slider>
-
+      <h1>Comedy</h1>
       <Slider>
         <ul className="videos-bg">
           {moviesList.map(each => {
-            if (each.category === 'COMEDY') {
+            if (each.categoryId === 'COMEDY') {
               return <MovieItem actionInfo={each} key={each.id} />
             }
             return null

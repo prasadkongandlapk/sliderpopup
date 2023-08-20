@@ -11,7 +11,6 @@ const PrimeVideo = props => {
         src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png "
         alt="prime video"
       />
-      <h1>Action Movies</h1>
       <div>
         <MoviesSlider moviesList={moviesList} />
       </div>
